@@ -4,7 +4,7 @@
 // </copyright>
 // --------------------------------------------------------------------------------------------------------------------
 
-namespace Belt.Guard
+namespace MiniGuard
 {
     using System;
     using System.Runtime.Serialization;

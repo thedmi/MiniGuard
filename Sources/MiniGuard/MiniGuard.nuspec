@@ -10,12 +10,8 @@
     <projectUrl>https://github.com/thedmi/Belt</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>$description$</description>
-    <releaseNotes>Maybes are now serialized as array of length zero (empty maybe) or one (maybe exists).</releaseNotes>
+    <releaseNotes>Minor usability improvements.</releaseNotes>
     <copyright>Copyright 2014</copyright>
-    <tags>immutable, guard, maybe, equatable, lazy, ddd</tags>
-    <dependencies>
-      <!-- TODO Change version number accordingly -->
-      <dependency id="Belt" version="0.8.1" />
-    </dependencies>
+    <tags>guard</tags>
   </metadata>
 </package>

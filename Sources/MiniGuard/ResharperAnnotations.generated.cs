@@ -15,7 +15,7 @@
  */
 // ReSharper disable CSharpWarnings::CS1584
 
-namespace Belt.Guard
+namespace MiniGuard
 {
     using System;
 

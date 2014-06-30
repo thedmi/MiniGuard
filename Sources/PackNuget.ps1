@@ -1,12 +1,6 @@
 
-Push-Location Belt
+Push-Location MiniGuard
 
-nuget pack -Build -Prop Configuration=Release 
-
-Pop-Location
-
-Push-Location Belt.Serialization.JsonNet
-
-nuget pack -Build -Prop Configuration=Release 
+nuget pack -Build -Prop Configuration=Release -Output ..\..\..\LocalNugetFeed
 
 Pop-Location
