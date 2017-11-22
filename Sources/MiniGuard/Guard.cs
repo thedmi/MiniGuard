@@ -1,12 +1,8 @@
-﻿// --------------------------------------------------------------------------------------------------------------------
-// <copyright file="Guard.cs" company="Dani Michel">
-//   Dani Michel 2013
-// </copyright>
-// --------------------------------------------------------------------------------------------------------------------
-
-namespace MiniGuard
+﻿namespace MiniGuard
 {
     using System.Diagnostics;
+
+    using JetBrains.Annotations;
 
     [DebuggerStepThrough]
     public static class Guard
@@ -61,9 +57,8 @@ namespace MiniGuard
             ThrowIfViolated(condition, string.Format("Guard violated: {0}", guardInfo));
         }
 
-        // ReSharper disable UnusedParameter.Local
+        // ReSharper disable once ParameterOnlyUsedForPreconditionCheck.Local
         private static void ThrowIfViolated(bool condition, string exceptionInfo)
-        // ReSharper restore UnusedParameter.Local
         {
             if (!condition)
             {

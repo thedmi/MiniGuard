@@ -11,9 +11,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		VersionInfo.cs = VersionInfo.cs
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniGuard", "MiniGuard\MiniGuard.csproj", "{E7F7EB38-C922-4A12-A18E-09F151E16EAA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniGuard", "MiniGuard\MiniGuard.csproj", "{6C0DAF66-FECF-4F66-9E94-502CD83803C2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniGuardTest", "MiniGuardTest\MiniGuardTest.csproj", "{D61B417F-F827-48E7-B3CF-C8F5D6410779}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniGuard.Test", "MiniGuard.Test\MiniGuard.Test.csproj", "{D4EC1157-2725-4C5A-9E55-E5CA91372A82}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,14 +21,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{E7F7EB38-C922-4A12-A18E-09F151E16EAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E7F7EB38-C922-4A12-A18E-09F151E16EAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E7F7EB38-C922-4A12-A18E-09F151E16EAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E7F7EB38-C922-4A12-A18E-09F151E16EAA}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D61B417F-F827-48E7-B3CF-C8F5D6410779}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D61B417F-F827-48E7-B3CF-C8F5D6410779}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D61B417F-F827-48E7-B3CF-C8F5D6410779}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D61B417F-F827-48E7-B3CF-C8F5D6410779}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C0DAF66-FECF-4F66-9E94-502CD83803C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C0DAF66-FECF-4F66-9E94-502CD83803C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C0DAF66-FECF-4F66-9E94-502CD83803C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C0DAF66-FECF-4F66-9E94-502CD83803C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4EC1157-2725-4C5A-9E55-E5CA91372A82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4EC1157-2725-4C5A-9E55-E5CA91372A82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4EC1157-2725-4C5A-9E55-E5CA91372A82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4EC1157-2725-4C5A-9E55-E5CA91372A82}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

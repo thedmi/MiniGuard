@@ -1,10 +1,4 @@
-﻿// --------------------------------------------------------------------------------------------------------------------
-// <copyright file="GuardException.cs" company="Dani Michel">
-//   Dani Michel 2013
-// </copyright>
-// --------------------------------------------------------------------------------------------------------------------
-
-namespace MiniGuard
+﻿namespace MiniGuard
 {
     using System;
     using System.Runtime.Serialization;
