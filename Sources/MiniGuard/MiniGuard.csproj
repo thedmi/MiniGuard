@@ -6,11 +6,12 @@
     <PackageLicenseUrl>http://opensource.org/licenses/MIT</PackageLicenseUrl>
     <PackageProjectUrl>https://github.com/thedmi/MiniGuard</PackageProjectUrl>
     <PackageTags>guard assertion</PackageTags>
-    <Version>1.0.0</Version>
-    <AssemblyVersion>1.0.0</AssemblyVersion>
-    <FileVersion>1.0.0</FileVersion>
+    <Version>1.1.0</Version>
+    <AssemblyVersion>1.1.0</AssemblyVersion>
+    <FileVersion>1.1.0</FileVersion>
+    <PackageVersion>1.1.0</PackageVersion>
     <Description>A minimalistic guard library with Resharper contract annotations</Description>
-    <Copyright>Copyright © 2017</Copyright>
+    <Copyright>Copyright © 2021</Copyright>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
     <DefineConstants>TRACE;JETBRAINS_ANNOTATIONS</DefineConstants>
