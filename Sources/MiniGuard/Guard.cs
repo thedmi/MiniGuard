@@ -16,7 +16,7 @@
         [ContractAnnotation("condition: false => halt")]
         public static void Precondition(bool condition, string preconditionInfo)
         {
-            ThrowIfViolated(condition, string.Format("Precondition violated: {0}", preconditionInfo));
+            ThrowIfViolated(condition, $"Precondition violated: {preconditionInfo}");
         }
 
         [ContractAnnotation("false => halt")]
@@ -28,7 +28,7 @@
         [ContractAnnotation("condition: false => halt")]
         public static void Postcondition(bool condition, string postconditionInfo)
         {
-            ThrowIfViolated(condition, string.Format("Postcondition violated: {0}", postconditionInfo));
+            ThrowIfViolated(condition, $"Postcondition violated: {postconditionInfo}");
         }
 
         [ContractAnnotation("false => halt")]
@@ -40,7 +40,7 @@
         [ContractAnnotation("condition: false => halt")]
         public static void Assertion(bool condition, string guardInfo)
         {
-            ThrowIfViolated(condition, string.Format("Guard violated: {0}", guardInfo));
+            ThrowIfViolated(condition, $"Guard violated: {guardInfo}");
         }
 
         [Conditional("DEBUG")]
@@ -54,7 +54,7 @@
         [ContractAnnotation("condition: false => halt")]
         public static void DebugAssertion(bool condition, string guardInfo)
         {
-            ThrowIfViolated(condition, string.Format("Guard violated: {0}", guardInfo));
+            ThrowIfViolated(condition, $"Guard violated: {guardInfo}");
         }
 
         // ReSharper disable once ParameterOnlyUsedForPreconditionCheck.Local
